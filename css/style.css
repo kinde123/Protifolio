@@ -7,7 +7,7 @@ span{
   color: blue;
 }
 footer{
-  background-color: rgba(255,175,75,1);
+  background-color: rgba(30,87,153,1);
 padding-top: 1rem;
 padding-bottom: 1rem;
 color: white;
@@ -55,7 +55,7 @@ p {
 
 .navbar {
   padding: 0 0 0.2rem;
-background-color: rgba(255,175,75,1);
+background-color: rgba(30,87,153,1);
 }
 
 .navbar-brand {
