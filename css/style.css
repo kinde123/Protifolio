@@ -169,6 +169,9 @@ p {
   font-family: "Montserrat-Light";
 }
 
+hr{
+  padding-top: -100px;
+}
 /* Buttons */
 
 .download-button {
@@ -197,6 +200,7 @@ p {
   border-radius: 25%;
 
 }
+
  @media screen and (max-device-width: 480px) {
    .column {
      float: none;
