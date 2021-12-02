@@ -123,6 +123,7 @@ p {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
+  padding-top: 70px;
 }
 
 .section-heading {
@@ -189,10 +190,12 @@ p {
 /* Title Image */
 
 .title-image {
-  width: 60%;
+  width: 70%;
   transform: none;
   position: static;
   right: 30%;
+  border-radius: 25%;
+
 }
  @media screen and (max-device-width: 480px) {
    .column {
