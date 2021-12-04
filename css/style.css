@@ -102,7 +102,7 @@ background: linear-gradient(black, white);
      float: none;
    }
  } */
-@media (max-width: 480px) {
+@media (max-width: 1028px) {
   #title {
     text-align: center;
   }
