@@ -143,7 +143,7 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 7% 15%;
+   padding: 1% 7%;
 }
 
 /* Sections */
@@ -155,6 +155,7 @@ p {
 
 .white-section {
   background-color: #fff;
+
 }
 
 /* Navigation Bar */
@@ -189,7 +190,9 @@ p {
 /* Title Section */
 
 #title {
-  background-color:rgba(73,155,234,1);
+  /* background-color:rgba(73,155,234,1); */
+  background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
+
   color: white;
   text-align: left;
 }
