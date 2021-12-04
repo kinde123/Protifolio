@@ -1,132 +1,30 @@
-/*
+
 body {
   font-family: "Montserrat";
   text-align: center;
-}
-span{
-  color:;
-}
- footer{
-  background-color: rgba(30,87,153,1);
-padding-top: 1rem;
-padding-bottom: 1rem;
-color: white;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
+  background-image: url("b2.jpg");
 }
 
-p {
-  color:black;
-}
-
-/* Headings */
-
-/* .big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3,5rem;
-  line-height: 1.5;
-  margin-top: 150px;
-
-
-}
-
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Containers */
-
-/* .container-fluid{
-  padding: 7% 15%;
-} */
-
-/* Sections */
-
-/* .colored-section {
-  background-color:  Black;
-  color: black;
-} */
-
-
-
-/* Navigation Bar */
-
-/* .navbar {
-  padding: 50 0 4.5rem;
-background-color: rgba(30,87,153,1);
-
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: bold;
-  color: white;
-  right: 30%;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
   color: black;
-} */
-
-
-
-
-
-/* Title Section */
-
-/* #title {
-  background-color:rgba(30,87,153,1);
-  color: white;
-  text-align: left;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
-} */
-
-/* Title Image */
-/*
-.title-image {
-  width: 75%;
-  /* transform: rotate(25deg); */
-  /* border-radius: 25%;
-  position: static;
-  right: 30%;
-
-}  */
-
-body {
-  font-family: "Montserrat";
-  text-align: center;
-}
-
- h2, h3, h4, h5, h6 {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 2.5rem;
-   color: black;
-}
-h4{
+h4 {
   color: white;
 }
+
 p {
   font-family: "cursive";
   color: black;
 }
-.pro{
+
+.pro {
   text-decoration: underline;
 }
 
 /* Headings */
-
 .big-heading {
   font-family: "Sacramento";
   font-style: oblique;
@@ -141,25 +39,16 @@ p {
 }
 
 /* Containers */
-
-.container-fluid{
-   padding: 1% 7%;
+.container-fluid {
+  padding: 1% 7%;
 }
 
 /* Sections */
-
-.colored-section {
-  background-color: rgba(214,249,255,1);
-  color: #fff;
-}
-
 .white-section {
   background-color: #fff;
-
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -179,21 +68,15 @@ p {
   font-family: "Montserrat-Light";
 }
 
-
-
 /* Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Section */
-
 #title {
-  /* background-color:rgba(73,155,234,1); */
-  background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
-
-  color: white;
+background: linear-gradient(black, white);
+ color: white;
   text-align: left;
 }
 
@@ -201,36 +84,32 @@ p {
   padding: 3% 15% 7%;
 }
 
-
 /* Title Image */
-
 .title-image {
   width: 70%;
   transform: none;
   position: static;
   right: 30%;
   border-radius: 25%;
-
 }
 
- /* @media screen and (max-device-width: 480px) {
+/* @media screen and (max-device-width: 480px) {
    .column {
      float: none;
    }
  } */
- @media (max-width: 1028px) {
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
 
-   #title {
-     text-align: center;
-   }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
 
-   .title-image {
-     position: static;
-     transform: rotate(0);
-   }
- }
-
- /* .copy-right{
+/* .copy-right{
   color: black;
   font-size: .75em;
 } */
