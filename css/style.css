@@ -13,7 +13,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h4 {
-  color: white;
+  color: black;
 }
 
 p {
@@ -80,7 +80,7 @@ text-decoration-color: black;
 #title {
 background: linear-gradient(gray, white);
 /* background: linear-gradient(to right, black, white); */
- color: rgb(255,116,0); 
+ color: black;
   text-align: left;
 }
 
