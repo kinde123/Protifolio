@@ -23,7 +23,7 @@ p {
 
 .pro {
   text-decoration: underline;
-text-decoration-color: white;
+text-decoration-color: black;
 
 }
 
@@ -78,9 +78,9 @@ text-decoration-color: white;
 
 /* Title Section */
 #title {
-background: linear-gradient(black, white);
+background: linear-gradient(gray, white);
 /* background: linear-gradient(to right, black, white); */
- color: white;
+ color: rgb(255,116,0); 
   text-align: left;
 }
 
