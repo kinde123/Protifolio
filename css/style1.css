@@ -1,0 +1,129 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: lighter
+}
+
+h4 {
+  color: #000000;
+}
+
+p {
+  font-family: "cursive";
+  color: #000000;
+}
+
+
+.pro {
+  text-decoration: underline;
+text-decoration-color: #000000;
+
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Sacramento";
+  font-style: oblique;
+  font-size: 5.6rem;
+  line-height: 1.5;
+  padding-top: 70px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  background-image: url("image/b1.png");
+}
+
+/* Containers */
+.container-fluid {
+  padding: 1% 7%;
+}
+
+/* Sections */
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.Containers{
+   width: 100%;
+   background-color: white;
+}
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  /* background:linear-gradient(to top,#121212 6%, transparent); */
+ background: linear-gradient(gray, white);
+/* background: linear-gradient(to right, black, white); */
+ color: #000000;
+  text-align: left;
+}
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 70%;
+  transform: none;
+  position: static;
+  right: 30%;
+  border-radius: 25%;
+}
+
+
+/* @media screen and (max-device-width: 480px) {
+   .column {
+     float: none;
+   }
+ } */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* .copy-right{
+  color: black;
+  font-size: .75em;
+} */

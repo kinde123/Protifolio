@@ -1,120 +1,82 @@
 
-body {
-  font-family: "Montserrat";
-  text-align: center;
-  background-image: url("b2.jpg");
-}
+  /* Custom CSS to prevent the content
+  to go underneath the navbar */
+  body {
+    padding-top: 70px;
+    font-family: "Montserrat";
+    text-align: left;
+  background: linear-gradient(gray, white);
+  }
+  .navbar-nav {
+    padding: 0px 18px;
+    text-align: left;
+  }
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
 
-h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: #000000;
-  font-weight: lighter
-}
+  }
+  h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: lighter;
+      padding-left: 47px;
+  }
 
-h4 {
-  color: #000000;
-}
+  h4 {
+    color: #000000;
+    padding-left: 47px;
+  }
 
-p {
-  font-family: "cursive";
-  color: #000000;
-}
-
-
-.pro {
-  text-decoration: underline;
-text-decoration-color: black;
-
-}
-
-/* Headings */
-.big-heading {
+  p {
   font-family: "Sacramento";
-  font-style: oblique;
-  font-size: 5.6rem;
-  line-height: 1.5;
-  padding-top: 70px;
-}
+    color: dark;
+    padding-left: 47px;
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
+  }
+  .big-heading {
+    font-family: "Sacramento";
+    font-style: oblique;
+    font-size: 5.6rem;
+    line-height: 1.5;
+    padding-top: 70px;
 
-/* Containers */
-.container-fluid {
-  padding: 1% 7%;
-}
+  }
 
-/* Sections */
-.white-section {
-  background-color: #fff;
-}
+  .pro {
+    text-decoration: underline;
+  text-decoration-color: #000000;
 
-/* Navigation Bar */
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
-
-/* Buttons */
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/* Title Section */
-#title {
-background: linear-gradient(gray, white);
-/* background: linear-gradient(to right, black, white); */
- color: #000000;
-  text-align: left;
-}
-
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
-/* Title Image */
-.title-image {
-  width: 70%;
-  transform: none;
-  position: static;
-  right: 30%;
-  border-radius: 25%;
-}
-
-/* @media screen and (max-device-width: 480px) {
-   .column {
-     float: none;
-   }
- } */
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
   }
 
   .title-image {
+    width: 70 %;
+    transform: none;
     position: static;
-    transform: rotate(0);
+    right: 30%;
+    border-radius: 25%;
   }
-}
+  .white-section {
+    background: linear-gradient( white);
+    padding-top: 50px;
+  }
+  #footer{
+    text-align: center;
+    font-size: 1.3rem;
+    background: linear-gradient( white);
+    padding-top: 250px;
+    padding-bottom: 0px;
+  }
 
-/* .copy-right{
-  color: black;
-  font-size: .75em;
-} */
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
