@@ -70,13 +70,18 @@
     padding-bottom: 20px;
   }
 
-  @media (min-width: 220px) {
-    #title {
-      text-align: center;
-    }
-
-    .title-image {
-      position: static;
-      transform: rotate(0);
-    }
+  @media screen and (max-device-width: 480px) {
+   .column {
+     float: none;
+   }
+ }
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
   }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
