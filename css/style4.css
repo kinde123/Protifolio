@@ -66,8 +66,8 @@
     text-align: center;
     font-size: 1.3rem;
     background: linear-gradient( white);
-    padding-top: 250px;
-    padding-bottom: 0px;
+    padding-top: 270px;
+    padding-bottom: 20px;
   }
 
   @media (max-width: 1028px) {
