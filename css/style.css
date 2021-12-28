@@ -53,7 +53,7 @@ text-align: center;
   }
 
   .title-image {
-    width: 70 %;
+    width: 100 %;
     transform: none;
     position: static;
     right: 30%;
@@ -70,11 +70,7 @@ text-align: center;
 
   }
 
-  @media screen and (min-device-width: 280px) {
-   .column {
-     float: none;
-   }
- }
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
