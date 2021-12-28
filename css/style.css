@@ -53,11 +53,12 @@ text-align: center;
   }
 
   .title-image {
-    width: 60 %;
+    width: 100 %;
     transform: none;
-    position: absolute;
+    position: static;
     right: 30%;
     border-radius: 25%;
+    z-index: -1;
   }
   .white-section {
     background: linear-gradient( white);
