@@ -29,6 +29,7 @@ text-align: center;
   h4 {
     color: #000000;
     padding-left: 47px;
+    padding-top: 50px;
   }
 
   p {
@@ -76,7 +77,7 @@ text-align: center;
     margin: 20px 10px;
   }
 
-  @media (max-width: 1028px) {
+  @media (max-width: 1280px) {
 
     #title {
       text-align: center;
