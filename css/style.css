@@ -53,9 +53,9 @@ text-align: center;
   }
 
   .title-image {
-    width: 100 %;
+    width: 60 %;
     transform: none;
-    position: static;
+    position: absolute;
     right: 30%;
     border-radius: 25%;
   }
@@ -71,13 +71,18 @@ text-align: center;
   }
 
 
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
+  .social-icon {
+    margin: 20px 10px;
   }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
+  @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
   }
-}
