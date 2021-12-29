@@ -12,7 +12,11 @@
     padding-top: 70px;
     font-family: "Montserrat";
     text-align: center;
-  background: linear-gradient(gray, white);
+    background: #C9CCD3;
+ /* background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: lighten; */
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  /* background: linear-gradient(white, white, gray); */
   }
   .navbar-nav {
     padding: 0px 18px;
@@ -22,26 +26,26 @@
     font-family: "Ubuntu";
     font-size: 1.5rem;
     font-weight: bold;
-text-align: center;
+text-align: right;
   }
   h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #000000;
     font-weight: lighter;
-      padding-left: 47px;
+      /* padding-left: 47px; */
   }
 
   h4 {
     color: #000000;
-    padding-left: 47px;
+    /* padding-left: 47px; */
     padding-top: 50px;
   }
 
   p {
   font-family: "Sacramento";
     color: dark;
-    padding-left: 47px;
+    /* padding-left: 47px; */
 
   }
   .big-heading {
