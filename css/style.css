@@ -19,16 +19,7 @@
     /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
   /* background: linear-gradient(white, white, gray); */
   }
-  .navigation {
-   /* fixed keyword is fine too */
-   position: sticky;
-   top: 0;
-   z-index: 100;
-   /* z-index works pretty much like a layer:
-   the higher the z-index value, the greater
-   it will allow the navigation tag to stay on top
-   of other tags */
-}
+
   .navbar-fixed-top {
   position: fixed;
 }
