@@ -83,7 +83,7 @@ text-align: center;
     margin: 20px 10px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 100%) {
 
     #title {
       text-align: center;
