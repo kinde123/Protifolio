@@ -1,4 +1,10 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
   /* Custom CSS to prevent the content
   to go underneath the navbar */
 
