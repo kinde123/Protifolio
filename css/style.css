@@ -103,14 +103,30 @@ text-align: right;
     margin: 20px 10px;
   }
 
-  @media (max-width: 100%) {
+  @media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}
+@media (max-width: 767px){
 
-    #title {
-      text-align: center;
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;/* Auto position navbar top */
     }
 
-    .title-image {
-      position: static;
-      transform: rotate(0);
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+        max-height:inherit;/* Clear max-height */
     }
-  }
+
+    body{
+        padding:0px;/* No padding */
+   }
+}
