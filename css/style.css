@@ -26,14 +26,14 @@
   .navbar{
 
     position: fixed;
-
+align-items: center;
     width:auto;
-
+justify-content: space-between;
 
     text-align: center; /* <--- */
   }
   .navbar-nav {
-    padding: 0px 18px;
+    padding: 18px 18px;
     text-align: center;
   }
   .navbar-brand {
@@ -100,15 +100,11 @@ text-align: right;
 
 
   .social-icon {
-    margin: 20px 10px;
-  }
+  margin: 20px 10px;
+}
 
-  @media screen and (min-device-width: 100%) {
-   .column {
-     float: none;
-   }
- }
-@media (max-width: 100%) {
+@media (max-width: 1028px) {
+
   #title {
     text-align: center;
   }
