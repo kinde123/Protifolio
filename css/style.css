@@ -59,7 +59,7 @@ p {
 }
 
 #app {
-  height: 15vh; 
+  height: 30vh; 
   background-color: background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   color: #1d1d1d;
 }
