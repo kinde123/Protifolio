@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
   text-align: center;
+  padding-top: 70px;
 }
 
 * Containers */
@@ -80,7 +81,7 @@ text-decoration-color: #000000;
 }
 
 #title .container-fluid {
-  padding: 15% 15% 7%;
+  padding: 10% 15% 7%;
 }
 /* Title Image */
 
