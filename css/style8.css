@@ -1,0 +1,93 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  text-align: center;
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding-top: 1.1rem;
+padding-bottom: 1.1rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.big-heading {
+    font-family: "Sacramento";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+h1 {
+  font-size: 100px;
+}
+@media (min-width: 1200px) {
+  h1{
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 2rem;
+  }
+}
+
+
+.pro {
+  text-decoration: underline;
+text-decoration-color: #000000;
+
+}
+/* Title Section */
+
+#title {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 10% 15% 7%;
+}
+/* Title Image */
+
+.title-image {
+  width: 70%;
+  transform: none;
+  position: static;
+  right: 30%;
+  border-radius: 30%;
+}
