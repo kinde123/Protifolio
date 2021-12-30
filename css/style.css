@@ -24,7 +24,7 @@ margin:0;
   }
 
   .navbar{
-
+ overflow: hidden;
     position: fixed;
 align-items: center;
     width:auto;
