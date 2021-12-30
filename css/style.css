@@ -53,6 +53,10 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
 
 #app {
   height: 10vh;
@@ -86,24 +90,24 @@ margin:0;
   /* background: linear-gradient(white, white, gray); */
   }
 
-  .navbar{
-
-    position: fixed;
-align-items: center;
-    width:auto;
-justify-content: space-between;
-
-    text-align: center; /* <--- */
+.navbar{
+  position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
   }
-  .navbar-nav {
-    padding: 18px 18px;
-    text-align: center;
-  }
+
+
   .navbar-brand {
     font-family: "Ubuntu";
     font-size: 1.5rem;
     font-weight: bold;
 text-align: right;
+  margin-right: 1rem;
+  margin-left: 1rem;
   }
   .navbar a {
   float: left;
