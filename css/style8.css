@@ -91,10 +91,10 @@ text-decoration-color: #000000;
 /* Title Image */
 
 .title-image {
-  width: 100%;
+  width: 70%;
   transform: none;
   position: static;
   right: 30%;
   border-radius: 30%;
-  padding-top:
+
 }
