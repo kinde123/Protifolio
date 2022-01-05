@@ -43,7 +43,13 @@
               <div class="col-lg-6">
                 <h3 style="color: #fff;padding-top: 50px"> Contact me </h3>
                 <br>
-                <form action="mailto:kindetgg@gmail.com" method="post" enctype="text/plain">
+                <form action="mail.php" method="POST">
+                <p>Name</p> <input type="text" name="name">
+                <p>Email</p> <input type="text" name="email">
+                <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                <input type="submit" value="Send"><input type="reset" value="Clear">
+                </form>
+                <!-- <form action="mailto:kindetgg@gmail.com" method="post" enctype="text/plain">
 
 
                   <label style="color: #fff; ">Full Name*</label>
@@ -58,11 +64,12 @@
                   <br>
                   <textarea rows="8" cols="21" name="yourMessage" ></textarea><br>
                   <input type="checkbox"><input type="submit" name="">
-                </form>
+                </form> -->
 
             </div>
 
           </div>
+
 
         </section>
         <footer class="py-5 bg-light">
