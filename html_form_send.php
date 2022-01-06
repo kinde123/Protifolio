@@ -111,7 +111,7 @@ $headers = 'From: '.$email_from."\r\n".
             </nav>
 <div class="message">
 	<h1>Thank You</h1>
-	<p>Thank you for your message. We will contact you soon!</p>
+	<p>Thank you for your message. I will contact you soon!</p>
 </div>
 
 <footer class="py-5 bg-light">
