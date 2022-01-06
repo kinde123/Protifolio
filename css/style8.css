@@ -147,6 +147,7 @@ margin-top: -10px
 }
 .message{
   color: #fff;
+  padding-top: 320px;
   padding-bottom: 320px;
 }
 @media only screen and (max-width: 480px) {
