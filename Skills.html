@@ -15,6 +15,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
   <link rel="stylesheet" href="css/style8.css">
+  <style>
+* {box-sizing: border-box}
+#skill{
+  padding-bottom: 250px;
+  color:white;
+  padding-top: 150px;
+}
+.container1 {
+  width: 70%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+</style>
 </head>
 
 <body>
@@ -30,43 +54,39 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <section class="colored-section" id="title">
+<section id="skill">
+  <div class="row">
+    <div class="col-lg-6">
+  <h1>My Skills</h1>
+</div>
+<div class="col-lg-6">
+<p>HTML</p>
+<div class="container1">
+  <div class="skills html">90%</div>
+</div>
 
-    <div class="container-fluid">
+<p>CSS</p>
+<div class="container1">
+  <div class="skills css">80%</div>
+</div>
 
-      <div class="row">
+<p>JavaScript</p>
+<div class="container1">
+  <div class="skills js">65%</div>
+</div>
 
-        <div class="col-lg-6">
-          <h3 style="color: #fff;padding-top: 50px"> Contact me </h3>
-          <br>
-          <form name="htmlform" action="html_form_send.php" method="POST">
-            <p><label for="first_name">Name</label></p> <input type="text" name="first_name">
-            <p><label for="email">Email</label></p> <input type="text" name="email">
-            <p><label for="comments">Message</label></p><textarea name="comments" rows="6" cols="25"></textarea><br />
-            <input type="submit" value="Send"><input type="reset" value="Clear">
-          </form>
-
-
-        </div>
-
-
-        <div class="col-lg-6" style="padding-top: 100px;">
-          <P><h4>Kinde Tesfaye</h4></p>
-          <P>56-200 Góra</p>
-          <P><img src="image/ic1.png" alt="" style="width:auto;">0048725725252</p>
-          <P>E-mail: kindetgg@gmail.com</p>
-        </div>
-
-      </div>
-
-
-  </section>
+<p>PHP</p>
+<div class="container1">
+  <div class="skills php">60%</div>
+</div>
+</div>
+</section>
   <footer class="py-5 bg-light">
     <div class="container px-4">
       <p class="m-0 text-center text-dark">Copyright &copy; Kinde Tesfaye 2021</p>
