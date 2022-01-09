@@ -139,6 +139,7 @@ margin-top: 0px;
   width: auto;
   transform: none;
   border-radius: 30% 70% 70% 30% / 30% 46% 54% 70% ;
+
   filter: drop-shadow(-6px -7px 36px #000);
   filter: brightness(100%);
   text-align: center;
